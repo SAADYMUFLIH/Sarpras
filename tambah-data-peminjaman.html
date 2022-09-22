@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tambah Data</title>
+</head>
+<body>
+    <div class="container-1">
+        <header>Sarpras Starbhak</header>
+            <ul>
+                <li><a href="data-barang.php">Data barang</a></li>
+                <li><a href="data-pelanggan.php">Data peminjaman</a></li>
+            </ul>
+    
+        </div>
+    <div class="container-2">
+    <form action="simpan.php" method="POST">
+        <div class="h3-tambah">
+            <h3>Tambah Data peminjam</h3>
+        </div>
+        <div class="part">
+        <label>ID Siswa : </label>
+        <input required="required" type="number" name="id_siswa">
+        </div>
+        <div class="part">
+            <label>Nama Siswa :</label>
+            <input required="required" type="text" name="nama_siswa">  
+        </div>
+        <div class="part">
+            <label>Kelas :</label>
+            <input required="required" name="kelas" ></input>   
+        </div>
+        <div class="part">
+            <label>Alamat :</label>
+            <input required="required" type="text" name="alamat">
+        </div>
+        <div class="part">
+            <label>Email :</label>
+            <input required="required" type="text" name="email">
+        </div> 
+        <div class="part">
+            <label>Jenis Barang :</label>
+            <input required="required" type="text" name="jenis_barang">
+        </div> 
+        <div class="part">
+            <label>Jumlah Barang :</label>
+            <input required="required" type="text" name="jumlah_barang">
+        </div>
+        <div class="part">
+            <label>Waktu Peminjaman :</label>
+            <input required="required" type="text" name="waktu_peminjaman">
+        </div>  
+        <div class="simpan-tambah">
+            <input type="submit" name="simpan" value="simpan">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
